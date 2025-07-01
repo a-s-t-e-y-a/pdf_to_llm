@@ -54,7 +54,7 @@ npm run dev <file absolute path>
 
 ## Development
 
-To run the development server:
+To run the development server or chat:
 before that uncomment line number 144 to 146 in src/index.js
 ```bash
 npm run dev <file absolute path>
@@ -72,6 +72,11 @@ Test files are located in the `test/data` directory. You can use these files to 
 4. Push to the branch
 5. Create a new Pull Request
 
-## License
+## NOTE
 
-[Add your license here]
+This project is in development stage and need to configure many things
+
+points to be covered
+- add in memory to remember the before chat context
+- embedding the document in more optimize way 
+- create a frontent that allow to upload the pdf and then provide with the interface to chat
