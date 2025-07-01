@@ -141,9 +141,9 @@ if (!FilePath) {
   process.exit(1);
 }
 
-// processDocument(FilePath)
-//   .then(() => console.log('Processing complete!'))
-//   .catch(err => console.error('Processing failed:', err));
+processDocument(FilePath)
+  .then(() => console.log('Processing complete!'))
+  .catch(err => console.error('Processing failed:', err));
 
 console.log("Document get vectorize peroperly, now you can use it in your application!");
 
